@@ -25,7 +25,7 @@ setTimeout(() => {
     };
 
 
-    let TIME_LIMIT = 30;
+    let TIME_LIMIT = 3;
     let timePassed = 0;
     let timeLeft = TIME_LIMIT;
     let timerInterval = null;
@@ -114,8 +114,8 @@ setTimeout(() => {
         l3.textContent = '?';
         l4.textContent = '?';
 
-        timeLeft = 30;
-        TIME_LIMIT = 30;
+        timeLeft = 3;
+        TIME_LIMIT = 3;
         timePassed = 0;
         document.getElementById("base-timer-label").innerHTML = formatTime(
             timeLeft
