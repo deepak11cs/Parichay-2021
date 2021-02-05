@@ -139,7 +139,7 @@ setTimeout(() => {
 
     function getRandomAlpha() {
 
-        let characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        let characters = 'AFGHEDUVWOPKLMNIJBRSTC';
         let charactersLength = characters.length;
         return characters.charAt(Math.floor(Math.random() * charactersLength));
     }
