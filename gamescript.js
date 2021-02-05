@@ -3,7 +3,7 @@ setTimeout(() => {
 
     const btnStart = document.getElementById('start');
     const btnReset = document.getElementById('reset');
-    const msg1 = "You all will have to distribute 4 letters among yourself in 30 seconds.";
+    const msg1 = "You all will have to distribute 4 letters among yourself. Your time starts in 3.. 2.. 1..";
     const msg2 = "Hunt them down!";
     const msg = document.getElementById('msg');
     const FULL_DASH_ARRAY = 283;
